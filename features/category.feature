@@ -7,7 +7,6 @@ Feature: Manage categories
     Given the blog is set up
     And I am logged into the admin panel
 
-
   Scenario: Add categories
     When I follow "Categories"
     Then I should be on the new category page
